@@ -17,7 +17,7 @@ If not, the code uses the Eisenstein & Hu (1999) fitting formula as the linear P
 
 
 #include <iostream>
-#include <bihalofit.hpp>
+#include "bihalofit.hpp"
 
 int main()
 {

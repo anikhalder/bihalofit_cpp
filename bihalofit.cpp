@@ -15,10 +15,10 @@ If not, the code uses the Eisenstein & Hu (1999) fitting formula as the linear P
 
 */
 
-#include <bihalofit.hpp>
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "bihalofit.hpp"
 
 namespace
 {
