@@ -26,7 +26,7 @@ int main()
     //bihalofit bh_obj = bihalofit(0.047, 0.286, 0.7, 0.82, 0.96, -1); //using parameterised constructor
 
     // can load desired linear power spectrum P(k) at z=0; if not code will use Eisenstein & Hu (1999) fitting formula for P(k)
-    //bh_obj.load_pk_data("linear_pk_planck2015.txt");
+    bh_obj.load_pk_data("linear_pk_planck2015.txt");
 
     double z=0.4;  // redshift
     double k1=1., k2=1.5, k3=2.;   // [h/Mpc]
