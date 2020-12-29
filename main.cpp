@@ -31,8 +31,8 @@ int main()
     double z=0.4;  // redshift
     double k1=1., k2=1.5, k3=2.;   // [h/Mpc]
 
-    // calculating D1, r_sigma & n_eff for a given redshift
-    printf("%lf %lf %lf \n", bh_obj.calc_D1(z), bh_obj.calc_r_sigma(z), bh_obj.calc_n_eff(z));
+    // calculating D1, r_sigma for a given redshift
+    printf("%lf %lf \n", bh_obj.calc_D1(z), bh_obj.calc_r_sigma(z));
 
     // non-linear BS w/o baryons, tree-level BS [(Mpc/h)^6] & baryon ratio for given k1,k2,k3 and z
     printf("%lf %lf %lf %lf %lf %lf \n", k1, k2, k3, bh_obj.bispec(k1,k2,k3,z), bh_obj.bispec_tree(k1,k2,k3,z), bh_obj.baryon_ratio(k1,k2,k3,z));
